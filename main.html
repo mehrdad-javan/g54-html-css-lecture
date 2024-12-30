@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/table-style.css" />
-    <link rel="stylesheet" href="css/form-style.css" />
     <link rel="stylesheet" href="css/new-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Marketplace App</title>
   </head>
@@ -14,20 +16,44 @@
   <body>
     <!--Marketplace App structure, HTML workshop-->
     <header>
-      <h1>Marketplace App</h1>
+      <h1>Explore and shop from our marketplace!</h1>
     </header>
     <p>Welcome to the Marketplace App!</p>
     <main>
       <section id="products" class="container" wrap align="center" valign="top">
         <div id="product-list">
-          <h2>Products</h2>
-          <div>
-            <h3>Socks</h3>
-            <img src="https://via.placeholder.com/150" alt="Product 1" />
-            <p>Price: $10</p>
+          <h2>Featured Products</h2>
+          <div class="product-item">
+            <h3>Cuddles</h3>
+            <img
+              src="https://placehold.co/600x400?text=Cuddles&font=roboto"
+              alt="Cuddles"
+            />
+            <ul>
+              <li><p>Price: 10</p></li>
+              <li><p>Category: Cuddles</p></li>
+              <li><p>Rating: 100/100</p></li>
+            </ul>
             <div class="email-field">
-              <label>E-mail:</label
-              ><input type="email" placeholder="Enter your e-mail..." />
+              <label>E-mail:</label>
+              cuddles@me.com
+            </div>
+            <button class="details">View details</button>
+          </div>
+          <div class="product-item">
+            <h3>Squeeaks</h3>
+            <img
+              src="https://placehold.co/600x400?text=Cuddles&font=roboto"
+              alt="Squeeaks"
+            />
+            <ul>
+              <li><p>Price: 500</p></li>
+              <li><p>Category: Squeeaks and beeps</p></li>
+              <li><p>Rating: 200/320</p></li>
+            </ul>
+            <div class="email-field">
+              <label>E-mail:</label>
+              squeeeeea@me.com
             </div>
             <button class="details">View details</button>
           </div>
