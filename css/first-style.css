@@ -16,4 +16,20 @@ header {
 section {
   padding: 20px;
   margin: 20px, 0, 20px, 0;
+  background-color: #ffff;
+  border-radius: 5px;
+}
+h2 {
+  color: #4caf50;
+  text-align: center;
+}
+#products {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  max-width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  border-radius: 5px;
 }
