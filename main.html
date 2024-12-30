@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marketplace App</title>
-</head>
-<body>
-  <!--Marketplace App structure, HTML workshop-->
-  <header>
-    <h1>Marketplace App</h1>
-  </header>
-  <p>
-    Welcome to the Marketplace App!
-  </p>
-  <main>
-    <section id="products">
-      <h2>Products</h2>
-      <ul>
-        <li>Product 1</li>
-        <li>Product 2</li>
-        <li>Product 3</li>
-      </ul>
-    </section>
-<!--     <section>
-      <h2>Cart</h2>
-      <ul>
-        <li>Product 1</li>
-        <li>Product 2</li>
-      </ul>
-    </section>
- -->  
-  </main>
-  <footer>
-    <p>&copy; 2023 Marketplace App</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/table-style.css" />
+    <link rel="stylesheet" href="css/form-style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+
+    <title>Marketplace App</title>
+  </head>
+
+  <body>
+    <!--Marketplace App structure, HTML workshop-->
+    <header>
+      <h1>Marketplace App</h1>
+    </header>
+    <p>Welcome to the Marketplace App!</p>
+    <main>
+      <section id="products" class="container" wrap align="center" valign="top">
+        <div id="product-list">
+          <h2>Products</h2>
+          <div>
+            <h3>Socks</h3>
+            <img src="https://via.placeholder.com/150" alt="Product 1" />
+            <p>Price: $10</p>
+            <div class="email-field">
+              <label>E-mail:</label
+              ><input type="email" placeholder="Enter your e-mail..." />
+            </div>
+            <button class="details">View details</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Marketplace App</p>
+    </footer>
+  </body>
 </html>
