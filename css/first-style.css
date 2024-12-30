@@ -1,0 +1,19 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #d4d0d0;
+  color: #333;
+  margin: 0;
+  padding: 0%;
+}
+header {
+  background-color: #f00000;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+section {
+  padding: 20px;
+  margin: 20px, 0, 20px, 0;
+}
